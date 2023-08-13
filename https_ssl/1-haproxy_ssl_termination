@@ -1,3 +1,5 @@
+frontend www-http
+        bind *:80
         mode http
         default_backend web-backend
 
